@@ -23,7 +23,7 @@ func main() {
 	client := pb.NewCustomerServiceClient(conn)
 	
 
-	response, err := client.CreateCustomer(context.Background(), &pb.CustomerRequest{CustomerId: 107})
+	response, err := client.CreateCustomer(context.Background(), &pb.CustomerRequest{CustomerId: 109})
 	if err != nil {
 		log.Fatalf("Failed to call SayHello: %v", err)
 	}
