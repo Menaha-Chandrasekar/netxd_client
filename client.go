@@ -6,8 +6,8 @@ import (
 
 	"log"
 
-	constants "module/netxd_constants"
-	pb "module/netxd_customer/customer_proto"
+	constants "github.com/Menaha-Chandrasekar/netxd_constants"
+	pb "github.com/Menaha-Chandrasekar/netxd_customer/customer_proto"
 
 	"google.golang.org/grpc"
 )
